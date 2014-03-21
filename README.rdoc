@@ -1,28 +1,18 @@
-== README
+Testing Rails ActionMailer using RSpec Shared Examples (Tweetegy.com)
+=====================================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example Rails app to demonstrate how developers might test ActionMailer using RSpec Shared Examples.
 
-Things you may want to cover:
+For more details about the story check the following blog: http://www.tweetegy.com/2014/03/testing-mailers-using-rspec-shared-examples/
 
-* Ruby version
+## Installation / Try this out at home
 
-* System dependencies
+Clone this repo to your own computer
 
-* Configuration
+Run the following to install required gems (--path is optional)
+    bundle install --path vendor/bundle
 
-* Database creation
+Run the following to see the specs pass!:
+    bundle exec rspec spec
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Play around with the mailers, templates, shared examples etc and see what happens
